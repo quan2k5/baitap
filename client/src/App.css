@@ -1,0 +1,86 @@
+.total-container{
+  width: 35%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-box{
+  width: 80%;
+  box-shadow: 0 0 5px 2px grey;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+}
+.input-box input{
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: 1px solid gray ;
+}
+.input-box button{
+  width: 100%;
+  height: 40px;
+  background-color: rgba(0, 0, 255, 0.685);
+  border: none;
+  font-size:medium;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.workList{
+  margin: 10px;
+  width:85%;
+  overflow: auto;
+  height: 280px;
+}
+.modal{
+  position: fixed;
+  left:0;
+  right: 0;
+  top:0;
+  bottom: 0;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.521);
+}
+.workItem{
+  width: 90%;
+  margin-left: 18px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border:1px solid gray;
+  border-radius: 5px;
+}
+.workItem i{
+  margin-right: 10px;
+  cursor: pointer;
+}
+i:first-child{
+  color: orange;
+}
+i:last-child{
+  color: red;
+}
+.status-box{
+  width: 80%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.status-box button{
+  width: 100px;
+  height: 40px;
+  background-color: rgba(0, 0, 255, 0.637);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
